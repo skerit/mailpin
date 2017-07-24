@@ -1,0 +1,33 @@
+{
+	"name": "mailpin",
+	"version": "0.1.0",
+	"description": "SMTP Server",
+	"main": "index.js",
+	"scripts": {
+		"test": "node_modules/.bin/mocha --reporter spec"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skerit/mailpin.git"
+	},
+	"keywords": [
+		"nntp",
+		"usenet",
+		"newsgroups"
+	],
+	"dependencies": {
+		"graceful-fs": "4.1.x",
+		"mkdirp": "0.5.x",
+		"protoblast": "~0.3.1"
+	},
+	"devDependencies": {
+		"mocha": "2.1.x"
+	},
+	"author": "Jelle De Loecker <jelle@develry.be>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/skerit/mailpin/issues"
+	},
+	"homepage": "https://github.com/skerit/mailpin",
+	"private": true
+}
