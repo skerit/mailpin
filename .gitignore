@@ -21,3 +21,9 @@ scratch.js
 
 # Ignore coverage results
 /coverage/
+
+# Ignore example output
+/examples/output/*
+
+# Do not ignore gitkeep files
+!.gitkeep
